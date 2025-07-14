@@ -29,7 +29,7 @@ function App() {
                             <Header/>
                         </div>
                         <div className={"pl-12 flex-shrink max-h-12"}>
-                            <ContentButton text={"Show Stats"} clickEvent={() => setShowStats(!showStats)}
+                            <ContentButton text={"Show FPS"} clickEvent={() => setShowStats(!showStats)}
                                            isGrey={true}/>
                         </div>
                     </div>

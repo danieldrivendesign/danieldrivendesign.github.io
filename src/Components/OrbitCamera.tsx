@@ -7,11 +7,6 @@ export default function OrbitCamera() {
     const set = useThree((three) => three.set);
     const prevCamera = useThree((three) => three.camera);
 
-    // const cameraSpeed = 0.0;
-    // useFrame((_, delta) => {
-    //     camera.current.rotateY(cameraSpeed * delta)
-    // })
-
     useLayoutEffect(() => {
         const current = camera.current;
         if (!current) return;

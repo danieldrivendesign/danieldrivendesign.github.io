@@ -15,7 +15,7 @@ export default function PlaneVoronoi({darkMix}: { darkMix: number }) {
                 value: new THREE.Color('rgb(2,255,225)')
             },
             u_resolution: {value: new THREE.Vector2(1920 / 2, 1080 / 2)},
-            u_darkMix: {type: THREE.FloatType,value: 0.0}
+            u_darkMix: {type: THREE.FloatType, value: 0.0}
         }),
         []
     );

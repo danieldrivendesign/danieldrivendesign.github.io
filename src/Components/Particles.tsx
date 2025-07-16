@@ -4,7 +4,7 @@ import {useFrame} from "@react-three/fiber";
 import fragmentShader from "./Shaders/particleFrag.glsl?raw";
 import vertexShader from "./Shaders/particleVert.glsl?raw";
 
-export default function Particles({count,darkMix}: { count: number,darkMix: number }) {
+export default function Particles({count, darkMix}: { count: number, darkMix: number }) {
     const radius = 10;
     const points = useRef(null);
     const itemSize = 3

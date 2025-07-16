@@ -4,9 +4,9 @@ export default function Intro() {
         <>
             <div className={"flex flex-col font-mono flex-shrink"}>
                 <div className={"flex-shrink p-4"}>
-                    <h1 className={`dark:text-shadow-dark text-shadow-light ${darkToggleClass}`}>My name is </h1>
-                    <h1 className={"font-bold underline indent-28"}><span className={`dark:text-shadow-dark text-shadow-light ${darkToggleClass}`}> Daniel </span></h1>
-                    {/* <p className={`text-xs dark:text-shadow-dark text-shadow-light ${darkToggleClass} `}>I made this</p> */}
+                    <h1 className={`dark:text-shadow-dark text-shadow-light ${darkToggleClass}`}>Hello, my name is </h1>
+                    <h1 className={"font-bold underline indent-72"}><span
+                        className={`dark:text-shadow-dark text-shadow-light ${darkToggleClass}`}> Daniel </span></h1>
                 </div>
             </div>
         </>

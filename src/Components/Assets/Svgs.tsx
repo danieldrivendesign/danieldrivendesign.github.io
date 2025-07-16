@@ -35,7 +35,6 @@ export function Twitter({url}: { url: string }) {
             <a href={url} className={"z-20"} target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 50 50">
                     <g fill="#22d3ee" fillRule={"nonzero"}>
-
                         <path
                             d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z"></path>
                     </g>
@@ -58,6 +57,24 @@ export function FaceBook({url}: { url: string }) {
                     </g>
                 </svg>
             </a>
+        </div>
+    )
+}
+
+export function CloseArrow() {
+    return (
+        <div className={"p-1"}>
+            <svg width="34px" height="34px" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <rect width="48" height="48" fill="white" fill-opacity="0.01"></rect>
+                    <path d="M14 14L34 34" stroke="#000000" stroke-width="4" stroke-linecap="round"
+                          stroke-linejoin="round"></path>
+                    <path d="M14 34L34 14" stroke="#000000" stroke-width="4" stroke-linecap="round"
+                          stroke-linejoin="round"></path>
+                </g>
+            </svg>
         </div>
     )
 }

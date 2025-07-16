@@ -1,43 +1,45 @@
+import {BrowserRouter as Router, Link, Route, Routes} from "react-router-dom";
+import Personal from "./Components/PersonalInfo/Personal.tsx";
 import MainCanvas from "./Components/MainCanvas.tsx";
+import Intro from "./Components/Intro.tsx";
+import ProjectList from "./Components/Projects/ProjectList.tsx";
 import Socials from "./Components/Socials.tsx";
 import DarkModeToggle from "./Components/DarkModeToggle.tsx";
-import Header from "./Components/Header.tsx";
-import ContentButton from "./Components/ContentButton.tsx";
-import {useState} from "react";
-
-export interface ITheme{
-    themeCallback:({theme}:{theme:string}) => void;
-}
 
 function App() {
-    const [showStats, setShowStats] = useState<boolean>(false);
-    const [darkMix, setDarkMix] = useState(0.0);
-
-    function themeCallback({theme}: {theme: string }) {
-        setDarkMix(theme === 'dark' ? 0.0 : 1.0);
+    function themeCallback() {
     }
+
     return (
-        <div className="flex flex-col justify-center w-full text-black dark:text-white">
-            <div className={"w-full h-dvh overflow-clip dark:bg-[#242424] bg-white"}>
-                <div className={"absolute overflow-clip z-10 h-full w-full"}>
-                    <div className={"flex flex-col h-dvh"}>
-                        <div className={"pl-12 pr-12 flex-shrink max-h-16 flex justify-between"}>
-                            <Socials/>
-                            <DarkModeToggle themeCallback={themeCallback}/>
-                        </div>
-                        <div className={"pl-12 pr-12 flex-grow"}>
-                            <Header/>
-                        </div>
-                        <div className={"pl-12 flex-shrink max-h-12"}>
-                            <ContentButton text={"Show FPS"} clickEvent={() => setShowStats(!showStats)}
-                                           isGrey={true}/>
-                        </div>
+        <div>
+            <Router>
+                <nav className={"pl-12 pr-12 flex text-center items-center justify-between"}>
+                    <div className={"flex-shrink max-h-16 flex"}>
+                        <Socials/>
+                        <DarkModeToggle themeCallback={themeCallback}/>
                     </div>
-                </div>
-                <MainCanvas showStats={showStats} darkMix={darkMix}/>
-            </div>
+                    <div className={"flex text-center items-center justify-evenly"}>
+                        <Link className={"text-cyan-600 border-r border-cyan-400 px-2"} to="/">About</Link>
+                        <Link className={"text-cyan-600 border-r border-cyan-400 px-2"}
+                              to="/projects">Projects</Link>
+                        {/*<Link className={"text-cyan-600 border-r border-cyan-400 px-2"} to="/contact">Contact</Link>*/}
+                        <Link className={"text-cyan-600 px-2"} to="/just-bg">Show Background Only</Link>
+                    </div>
+                    <Link className={"text-white"} to="/">Daniel Andersen</Link>
+                </nav>
+
+                <Routes>
+                    <Route path="/" element={<Personal/>}/>
+                    <Route path="/about" element={<Intro/>}/>
+                    <Route path="/projects" element={<ProjectList/>}/>
+                    {/*<Route path="/contact" element={<Contact/>}/>*/}
+                    <Route path="/just-bg" element={<></>}/>
+                </Routes>
+            </Router>
+            <MainCanvas/>
         </div>
     )
 }
+
 
 export default App

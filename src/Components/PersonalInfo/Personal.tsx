@@ -1,5 +1,5 @@
-import Intro from "../Intro.tsx";
-import Bio from "../Bio.tsx";
+import Intro from "./Intro.tsx";
+import Bio from "./Bio.tsx";
 import Skills from "./Skills.tsx";
 
 export default function Personal() {

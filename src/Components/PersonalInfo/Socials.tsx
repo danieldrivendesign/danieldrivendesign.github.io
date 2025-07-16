@@ -1,4 +1,4 @@
-import {Github, Linkedin} from "./Assets/Svgs.tsx";
+import {Github, Linkedin} from "../Assets/Svgs.tsx";
 
 export default function Socials() {
     return (

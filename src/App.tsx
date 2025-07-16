@@ -1,9 +1,9 @@
 import {BrowserRouter as Router, Link, Route, Routes} from "react-router-dom";
 import Personal from "./Components/PersonalInfo/Personal.tsx";
 import MainCanvas from "./Components/MainCanvas.tsx";
-import Intro from "./Components/Intro.tsx";
+import Intro from "./Components/PersonalInfo/Intro.tsx";
 import ProjectList from "./Components/Projects/ProjectList.tsx";
-import Socials from "./Components/Socials.tsx";
+import Socials from "./Components/PersonalInfo/Socials.tsx";
 import DarkModeToggle from "./Components/DarkModeToggle.tsx";
 
 function App() {

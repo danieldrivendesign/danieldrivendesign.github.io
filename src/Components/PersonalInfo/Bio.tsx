@@ -40,7 +40,7 @@ export default function Bio() {
                     </p>
                     <p>
                         I like clean, predictable, and modular code. If you're looking for a detail-oriented developer,
-                        then please contact me!
+                        then please feel free to get in touch!
                     </p>
                 </div>
             </div>

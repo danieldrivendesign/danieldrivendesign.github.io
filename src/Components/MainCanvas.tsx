@@ -10,7 +10,7 @@ export default function MainCanvas() {
 
     return (
         <>
-            <div className={"absolute top-0 -z-10 p-12 h-dvh w-full overflow-hidden"}>
+            <div className={"fixed top-0 -z-10 p-12 h-dvh w-full overflow-hidden"}>
                 <div className="border-2 border-blue-300 h-full flex flex-col p-0">
                     <Canvas className={"absolute"}>
                         <ambientLight intensity={0.8}/>

@@ -47,7 +47,7 @@ function UnityIcon() {
 function DockerIcon() {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="24" height="24">
-            <path fill-rule="evenodd" clip-rule="evenodd" fill="#3A4D54"
+            <path fillRule="evenodd" clipRule="evenodd" fill="#3A4D54"
                   d="M73.8 50.8h11.3v11.5h5.7c2.6 0 5.3-.5 7.8-1.3 1.2-.4 2.6-1 3.8-1.7-1.6-2.1-2.4-4.7-2.6-7.3-.3-3.5.4-8.1 2.8-10.8l1.2-1.4 1.4 1.1c3.6 2.9 6.5 6.8 7.1 11.4 4.3-1.3 9.3-1 13.1 1.2l1.5.9-.8 1.6c-3.2 6.2-9.9 8.2-16.4 7.8-9.8 24.3-31 35.8-56.8 35.8-13.3 0-25.5-5-32.5-16.8l-.1-.2-1-2.1c-2.4-5.2-3.1-10.9-2.6-16.6l.2-1.7h9.6V50.8h11.3V39.6h22.5V28.3h13.5v22.5z"/>
             <path fill="#00AADA"
                   d="M110.4 55.1c.8-5.9-3.6-10.5-6.4-12.7-3.1 3.6-3.6 13.2 1.3 17.2-2.8 2.4-8.5 4.7-14.5 4.7H18.6c-.6 6.2.5 11.9 3 16.8l.8 1.5c.5.9 1.1 1.7 1.7 2.6 3 .2 5.7.3 8.2.2 4.9-.1 8.9-.7 12-1.7.5-.2.9.1 1.1.5.2.5-.1.9-.5 1.1-.4.1-.8.3-1.3.4-2.4.7-5 1.1-8.3 1.3h-.6c-1.3.1-2.7.1-4.2.1-1.6 0-3.1 0-4.9-.1 6 6.8 15.4 10.8 27.2 10.8 25 0 46.2-11.1 55.5-35.9 6.7.7 13.1-1 16-6.7-4.5-2.7-10.5-1.8-13.9-.1z"/>
@@ -57,23 +57,23 @@ function DockerIcon() {
                   d="M18.7 71.8c.4 3.3 1.4 6.4 2.9 9.3l.8 1.5c.5.9 1.1 1.7 1.7 2.6 3 .2 5.7.3 8.2.2 4.9-.1 8.9-.7 12-1.7.5-.2.9.1 1.1.5.2.5-.1.9-.5 1.1-.4.1-.8.3-1.3.4-2.4.7-5.2 1.2-8.5 1.4h-.4c-1.3.1-2.7.1-4.1.1-1.6 0-3.2 0-4.9-.1 6 6.8 15.5 10.8 27.3 10.8 21.4 0 40-8.1 50.8-26H18.7v-.1z"/>
             <path fill="#019BC6"
                   d="M23.5 71.8c1.3 5.8 4.3 10.4 8.8 13.5 4.9-.1 8.9-.7 12-1.7.5-.2.9.1 1.1.5.2.5-.1.9-.5 1.1-.4.1-.8.3-1.3.4-2.4.7-5.2 1.2-8.6 1.4 8.5 4.4 20.8 4.3 34.9-1.1 8.5-3.3 16.8-8.2 24.2-14.1H23.5z"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" fill="#00ACD3"
+            <path fillRule="evenodd" clipRule="evenodd" fill="#00ACD3"
                   d="M28.4 52.7h9.8v9.8h-9.8v-9.8zm.8.8h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm3-12h9.8v9.8h-9.8v-9.8zm.9.8h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1z"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" fill="#23C2EE"
+            <path fillRule="evenodd" clipRule="evenodd" fill="#23C2EE"
                   d="M39.6 52.7h9.8v9.8h-9.8v-9.8zm.9.8h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1z"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" fill="#00ACD3"
+            <path fillRule="evenodd" clipRule="evenodd" fill="#00ACD3"
                   d="M50.9 52.7h9.8v9.8h-9.8v-9.8zm.8.8h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1z"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" fill="#23C2EE"
+            <path fillRule="evenodd" clipRule="evenodd" fill="#23C2EE"
                   d="M50.9 41.5h9.8v9.8h-9.8v-9.8zm.8.8h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm3.1 10.4H72v9.8h-9.8v-9.8zm.8.8h.8v8.1H63v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1z"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" fill="#00ACD3"
+            <path fillRule="evenodd" clipRule="evenodd" fill="#00ACD3"
                   d="M62.2 41.5H72v9.8h-9.8v-9.8zm.8.8h.8v8.1H63v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1z"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" fill="#23C2EE"
+            <path fillRule="evenodd" clipRule="evenodd" fill="#23C2EE"
                   d="M62.2 30.2H72V40h-9.8v-9.8zm.8.8h.8v8.1H63V31zm1.5 0h.8v8.1h-.8V31zm1.4 0h.8v8.1h-.8V31zm1.5 0h.8v8.1h-.8V31zm1.5 0h.8v8.1h-.8V31zm1.5 0h.8v8.1h-.8V31z"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" fill="#00ACD3"
+            <path fillRule="evenodd" clipRule="evenodd" fill="#00ACD3"
                   d="M73.5 52.7h9.8v9.8h-9.8v-9.8zm.8.8h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1z"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" fill="#D4EEF1"
+            <path fillRule="evenodd" clipRule="evenodd" fill="#D4EEF1"
                   d="M48.8 78.3c1.5 0 2.7 1.2 2.7 2.7 0 1.5-1.2 2.7-2.7 2.7-1.5 0-2.7-1.2-2.7-2.7 0-1.5 1.2-2.7 2.7-2.7"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" fill="#3A4D54"
+            <path fillRule="evenodd" clipRule="evenodd" fill="#3A4D54"
                   d="M48.8 79.1c.2 0 .5 0 .7.1-.2.1-.4.4-.4.7 0 .4.4.8.8.8.3 0 .6-.2.7-.4.1.2.1.5.1.7 0 1.1-.9 1.9-1.9 1.9-1.1 0-1.9-.9-1.9-1.9 0-1 .8-1.9 1.9-1.9M1.1 72.8h125.4c-2.7-.7-8.6-1.6-7.7-5.2-5 5.7-16.9 4-20 1.2-3.4 4.9-23 3-24.3-.8-4.2 5-17.3 5-21.5 0-1.4 3.8-21 5.7-24.3.8-3 2.8-15 4.5-20-1.2 1.1 3.5-4.9 4.5-7.6 5.2"/>
             <path fill="#BFDBE0"
                   d="M56 97.8c-6.7-3.2-10.3-7.5-12.4-12.2-2.5.7-5.5 1.2-8.9 1.4-1.3.1-2.7.1-4.1.1-1.7 0-3.4 0-5.2-.1 6 6 13.6 10.7 27.5 10.8H56z"/>
@@ -101,21 +101,21 @@ function AzureIcon() {
             <defs>
                 <linearGradient id="azure-original-a" x1="60.919" y1="9.602" x2="18.667" y2="134.423"
                                 gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#114A8B"/>
-                    <stop offset="1" stop-color="#0669BC"/>
+                    <stop stopColor="#114A8B"/>
+                    <stop offset="1" stopColor="#0669BC"/>
                 </linearGradient>
                 <linearGradient id="azure-original-b" x1="74.117" y1="67.772" x2="64.344" y2="71.076"
                                 gradientUnits="userSpaceOnUse">
-                    <stop stop-opacity=".3"/>
-                    <stop offset=".071" stop-opacity=".2"/>
-                    <stop offset=".321" stop-opacity=".1"/>
-                    <stop offset=".623" stop-opacity=".05"/>
-                    <stop offset="1" stop-opacity="0"/>
+                    <stop stopOpacity=".3"/>
+                    <stop offset=".071" stopOpacity=".2"/>
+                    <stop offset=".321" stopOpacity=".1"/>
+                    <stop offset=".623" stopOpacity=".05"/>
+                    <stop offset="1" stopOpacity="0"/>
                 </linearGradient>
                 <linearGradient id="azure-original-c" x1="68.742" y1="5.961" x2="115.122" y2="129.525"
                                 gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#3CCBF4"/>
-                    <stop offset="1" stop-color="#2892DF"/>
+                    <stop stopColor="#3CCBF4"/>
+                    <stop offset="1" stopColor="#2892DF"/>
                 </linearGradient>
             </defs>
             <path
@@ -139,13 +139,13 @@ function PythonIcon() {
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="24" height="24">
             <linearGradient id="python-original-a" gradientUnits="userSpaceOnUse" x1="70.252" y1="1237.476" x2="170.659"
                             y2="1151.089" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)">
-                <stop offset="0" stop-color="#5A9FD4"/>
-                <stop offset="1" stop-color="#306998"/>
+                <stop offset="0" stopColor="#5A9FD4"/>
+                <stop offset="1" stopColor="#306998"/>
             </linearGradient>
             <linearGradient id="python-original-b" gradientUnits="userSpaceOnUse" x1="209.474" y1="1098.811" x2="173.62"
                             y2="1149.537" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)">
-                <stop offset="0" stop-color="#FFD43B"/>
-                <stop offset="1" stop-color="#FFE873"/>
+                <stop offset="0" stopColor="#FFD43B"/>
+                <stop offset="1" stopColor="#FFE873"/>
             </linearGradient>
             <path fill="url(#python-original-a)"
                   d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z"
@@ -155,8 +155,8 @@ function PythonIcon() {
                   transform="translate(0 10.26)"/>
             <radialGradient id="python-original-c" cx="1825.678" cy="444.45" r="26.743"
                             gradientTransform="matrix(0 -.24 -1.055 0 532.979 557.576)" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#B8B8B8" stop-opacity=".498"/>
-                <stop offset="1" stop-color="#7F7F7F" stop-opacity="0"/>
+                <stop offset="0" stopColor="#B8B8B8" stopOpacity=".498"/>
+                <stop offset="1" stopColor="#7F7F7F" stopOpacity="0"/>
             </radialGradient>
             <path opacity=".444" fill="url(#python-original-c)"
                   d="M97.309 119.597c0 3.543-14.816 6.416-33.091 6.416-18.276 0-33.092-2.873-33.092-6.416 0-3.544 14.815-6.417 33.092-6.417 18.275 0 33.091 2.872 33.091 6.417z"/>
@@ -170,30 +170,30 @@ function PowershellIcon() {
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="24" height="24">
             <linearGradient id="a" x1="96.306" x2="25.454" y1="35.144" y2="98.431"
                             gradientTransform="matrix(1 0 0 -1 0 128)" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#a9c8ff"/>
+                <stop offset="0" stopColor="#a9c8ff"/>
                 <stop
-                    offset="1" stop-color="#c7e6ff"/>
+                    offset="1" stopColor="#c7e6ff"/>
             </linearGradient>
-            <path fill="url(#a)" fill-rule="evenodd"
+            <path fill="url(#a)" fillRule="evenodd"
                   d="M7.2 110.5c-1.7 0-3.1-.7-4.1-1.9-1-1.2-1.3-2.9-.9-4.6l18.6-80.5c.8-3.4 4-6 7.4-6h92.6c1.7 0 3.1.7 4.1 1.9 1 1.2 1.3 2.9.9 4.6l-18.6 80.5c-.8 3.4-4 6-7.4 6H7.2z"
-                  clip-rule="evenodd" opacity=".8"/>
+                  clipRule="evenodd" opacity=".8"/>
             <linearGradient id="b" x1="25.336" x2="94.569" y1="98.33" y2="36.847"
                             gradientTransform="matrix(1 0 0 -1 0 128)" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#2d4664"/>
-                <stop offset=".169" stop-color="#29405b"/>
-                <stop offset=".445" stop-color="#1e2f43"/>
-                <stop offset=".79" stop-color="#0c131b"/>
+                <stop offset="0" stopColor="#2d4664"/>
+                <stop offset=".169" stopColor="#29405b"/>
+                <stop offset=".445" stopColor="#1e2f43"/>
+                <stop offset=".79" stopColor="#0c131b"/>
                 <stop offset="1"/>
             </linearGradient>
-            <path fill="url(#b)" fill-rule="evenodd"
+            <path fill="url(#b)" fillRule="evenodd"
                   d="M120.3 18.5H28.5c-2.9 0-5.7 2.3-6.4 5.2L3.7 104.3c-.7 2.9 1.1 5.2 4 5.2h91.8c2.9 0 5.7-2.3 6.4-5.2l18.4-80.5c.7-2.9-1.1-5.3-4-5.3z"
-                  clip-rule="evenodd"/>
-            <path fill="#2C5591" fill-rule="evenodd"
+                  clipRule="evenodd"/>
+            <path fill="#2C5591" fillRule="evenodd"
                   d="M64.2 88.3h22.3c2.6 0 4.7 2.2 4.7 4.9s-2.1 4.9-4.7 4.9H64.2c-2.6 0-4.7-2.2-4.7-4.9s2.1-4.9 4.7-4.9zM78.7 66.5c-.4.8-1.2 1.6-2.6 2.6L34.6 98.9c-2.3 1.6-5.5 1-7.3-1.4-1.7-2.4-1.3-5.7.9-7.3l37.4-27.1v-.6l-23.5-25c-1.9-2-1.7-5.3.4-7.4 2.2-2 5.5-2 7.4 0l28.2 30c1.7 1.9 1.8 4.5.6 6.4z"
-                  clip-rule="evenodd"/>
-            <path fill="#FFF" fill-rule="evenodd"
+                  clipRule="evenodd"/>
+            <path fill="#FFF" fillRule="evenodd"
                   d="M77.6 65.5c-.4.8-1.2 1.6-2.6 2.6L33.6 97.9c-2.3 1.6-5.5 1-7.3-1.4-1.7-2.4-1.3-5.7.9-7.3l37.4-27.1v-.6l-23.5-25c-1.9-2-1.7-5.3.4-7.4 2.2-2 5.5-2 7.4 0l28.2 30c1.7 1.8 1.8 4.4.5 6.4zM63.5 87.8h22.3c2.6 0 4.7 2.1 4.7 4.6 0 2.6-2.1 4.6-4.7 4.6H63.5c-2.6 0-4.7-2.1-4.7-4.6 0-2.6 2.1-4.6 4.7-4.6z"
-                  clip-rule="evenodd"/>
+                  clipRule="evenodd"/>
         </svg>
 
     )

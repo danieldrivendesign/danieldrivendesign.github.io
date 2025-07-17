@@ -1,6 +1,6 @@
 import {IProject} from "./IProject.tsx";
 import {useRef} from "react";
-import {useOutsideClick} from "../../Hooks/UseOutsideClick.ts";
+import {useOutsideClick} from "../../Hooks/useOutsideClick.ts";
 import {CloseArrow} from "../Assets/Svgs.tsx";
 import EmbedVideo from "./EmbedVideo.tsx";
 

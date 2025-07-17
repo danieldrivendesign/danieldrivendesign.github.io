@@ -2,7 +2,7 @@ import {useState} from "react";
 import {ProjectCard} from "./ProjectCard.tsx";
 import {IProject} from "./IProject.tsx";
 import ProjectFull from "./ProjectFull.tsx";
-import {useProjectSidebar} from "../../Hooks/UseOutsideClick.ts";
+import {useProjectSidebar} from "../../Hooks/useOutsideClick.ts";
 
 export default function ProjectList() {
     const [projects] = useState<IProject[]>([
@@ -26,7 +26,6 @@ export default function ProjectList() {
 
     function checkFileExtension(file: string){
         const extension = file.split('.')
-        console.log(extension);
         const ext = extension.pop()
         if(ext === 'mp4'){
             return true;
@@ -35,7 +34,7 @@ export default function ProjectList() {
     }
     return (
         <>
-            <div className={"flex flex-wrap justify-center w-full h-1/2 gap-5 pt-2"}>
+            <div className={"flex flex-row flex-wrap justify-center items-center w-full gap-5 py-14 px-14 grow"}>
                 {projects.map((project) => <ProjectCard project={project} projectCallback={(p) => open(p)}
                                                         key={project.name} isVideo={checkFileExtension(project.image)}/>)}
             </div>

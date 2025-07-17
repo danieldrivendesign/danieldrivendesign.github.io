@@ -202,7 +202,7 @@ function PowershellIcon() {
 function LanguageSkills() {
     return (
         <div
-            className={"w-3/4 h-full p-4 flex flex-col items-center justify-center dark:bg-cyan-950/95 bg-cyan-300/90 text-justify dark:text-shadow-dark text-shadow-light"}>
+            className={"w-3/4 h-full p-4 flex flex-col items-center dark:bg-cyan-950/95 bg-cyan-300/90 text-justify dark:text-shadow-dark text-shadow-light"}>
             <p className={"font-bold border-b w-full text-center mb-2"}>Languages</p>
             <div className={"grid grid-flow-row grid-cols-2 gap-1"}>
                 <p>C#</p><CsharpIcon/>
@@ -218,8 +218,8 @@ function LanguageSkills() {
 function FrameworkSkills() {
     return (
         <div
-            className={"w-3/4 h-full p-4 flex flex-col items-center justify-center dark:bg-cyan-950/95 bg-cyan-300/90 text-justify dark:text-shadow-dark text-shadow-light"}>
-            <p className={"font-bold border-b w-full text-center mb-2"}>Frameworks and Tools</p>
+            className={"w-3/4 h-full p-4 flex flex-col items-center dark:bg-cyan-950/95 bg-cyan-300/90 text-justify dark:text-shadow-dark text-shadow-light"}>
+            <p className={"font-bold border-b w-full text-center mb-2"}>Frameworks / Tools</p>
             <div className={"grid grid-flow-row grid-cols-2 gap-1"}>
                 <p>React</p><ReactIcon/>
                 <p>Docker</p><DockerIcon/>
@@ -232,7 +232,7 @@ function FrameworkSkills() {
 
 export default function Skills() {
     return (
-        <div className={"w-full flex items-start justify-center rounded-md"}>
+        <div className={"w-full h-80 flex items-start justify-start rounded-md"}>
             <LanguageSkills/>
             <FrameworkSkills/>
         </div>

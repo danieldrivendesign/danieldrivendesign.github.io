@@ -1,6 +1,3 @@
-// Author: @patriciogv - 2015
-// Title: Cracks
-
 #ifdef GL_ES
 precision highp float;
 #endif

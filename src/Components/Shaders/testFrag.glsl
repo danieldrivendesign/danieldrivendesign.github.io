@@ -11,13 +11,7 @@ uniform float param3;
 varying vec2 vUv;
 
 #define PI 3.141592653589793
-//// Description : Array and textureless GLSL 2D simplex noise function.
-//      Author : Ian McEwan, Ashima Arts.
-//  Maintainer : stegu
-//     Lastmod : 20110822 (ijm)
-//     License : Copyright (C) 2011 Ashima Arts. All rights reserved
-//               Distributed under the MIT License. See LICENSE file.
-//               https://github.com/ashima/webgl-noise//               https://github.com/stegu/webgl-noise//
+
 vec3 mod289(vec3 x){
     return x-floor(x*(1./289.))*289.;
 }
@@ -83,5 +77,5 @@ void main(){vec2 uv=vUv;
     vec3 result=mix(back,front,n);
     gl_FragColor=vec4(result,blurAlpha);
     // gl_FragColor = vec4(vec3(blurAlpha), 1.0);
-}'
+}
 

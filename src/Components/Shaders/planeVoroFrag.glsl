@@ -1,6 +1,3 @@
-// Author: @patriciogv - 2015
-// Title: Stippling
-
 precision highp float;
 
 uniform float u_time;

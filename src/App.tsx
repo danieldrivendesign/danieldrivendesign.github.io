@@ -5,13 +5,14 @@ import Intro from "./Components/PersonalInfo/Intro.tsx";
 import ProjectList from "./Components/Projects/ProjectList.tsx";
 import Socials from "./Components/PersonalInfo/Socials.tsx";
 import DarkModeToggle from "./Components/DarkModeToggle.tsx";
+import Resume from "./Components/PersonalInfo/Resume.tsx";
 
 function App() {
     function themeCallback() {
     }
 
     return (
-        <div>
+        <div className={"overflow-hidden"}>
             <Router>
                 <nav className={"pl-12 pr-12 flex text-center items-center justify-between"}>
                     <div className={"flex-shrink max-h-16 flex"}>
@@ -23,6 +24,7 @@ function App() {
                         <Link className={"text-cyan-600 border-r border-cyan-400 px-2"}
                               to="/projects">Projects</Link>
                         {/*<Link className={"text-cyan-600 border-r border-cyan-400 px-2"} to="/contact">Contact</Link>*/}
+                        <Link className={"text-cyan-600 border-r border-cyan-400 px-2"} to="/resume">Resume</Link>
                         <Link className={"text-cyan-600 px-2"} to="/just-bg">Show Background Only</Link>
                     </div>
                     <Link className={"text-white"} to="/">Daniel Andersen</Link>
@@ -32,7 +34,7 @@ function App() {
                     <Route path="/" element={<Personal/>}/>
                     <Route path="/about" element={<Intro/>}/>
                     <Route path="/projects" element={<ProjectList/>}/>
-                    {/*<Route path="/contact" element={<Contact/>}/>*/}
+                    <Route path="/resume" element={<Resume/>}/>
                     <Route path="/just-bg" element={<></>}/>
                 </Routes>
             </Router>

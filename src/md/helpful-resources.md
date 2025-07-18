@@ -17,6 +17,7 @@ Over the years, I have been saving various resources that I find helpful. I figu
 ### Art - Modeling
 
 - [TheDucky3D](https://www.youtube.com/@TheDucky3D)
+
 ### Art - Shaders
 
 - [Acerola](https://www.youtube.com/@Acerola_t) - Technical artist who does a mix of recreating shader effects in games, explaining algorithms, and seems very addicted to the Persona games. Very fun videos.
@@ -26,12 +27,12 @@ Over the years, I have been saving various resources that I find helpful. I figu
 
 - [GabrielAguiarProd](https://www.youtube.com/@GabrielAguiarProd) - Mostly VFX but also incorporates some modelling, shaders, and code into his projects. Another fun one even if you are not into VFX necessarily.
 
+## Blogs:
 
-## Blogs
-
-- [Jason Storey](https://code.jason-storey.com/snippets) - Not much of a blog, but contains a ton of common code snippets to get ideas from.
 - [Minions Art (Blog)](https://minionsart.github.io/tutorials/) - This is the main blog / tutorial list for Minions Art mentioned in the youtube section.
 - [Cat Like Coding](https://catlikecoding.com/unity/tutorials/) - Absolutely the best. Excellent series about movement, and a ton of fun shader / VFX tutorials.
-## Tools
+
+## Tools:
 
 - [Game UI Database](https://www.gameuidatabase.com/) - Everyone should go here occasionally. The best resource for getting UI ideas.
+- [Jason Storey](https://code.jason-storey.com/snippets) - Contains a ton of common code snippets to get ideas from.

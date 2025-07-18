@@ -1,9 +1,5 @@
 import {useEffect, useState} from 'react';
-
-export interface Post {
-    slug: string;
-    content: string;
-}
+import {Post} from "../Components/Interfaces/Post.ts";
 
 export function useAllMarkdown(): Post[] {
     const [posts, setPosts] = useState<Post[]>([]);

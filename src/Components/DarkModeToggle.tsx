@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 
-import {ITheme} from "../ITheme.tsx";
+import {ITheme} from "./Interfaces/ITheme.tsx";
 
 function DarkModeToggle({themeCallback}: ITheme) {
     const [currentTheme, setCurrentTheme] = useState<string>("")

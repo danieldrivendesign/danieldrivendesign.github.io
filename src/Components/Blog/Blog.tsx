@@ -1,6 +1,7 @@
 import MarkdownRenderer from "./MarkdownRenderer.tsx";
 import {useState} from "react";
-import {Post, useAllMarkdown} from "../../Hooks/useAllMarkdown.ts";
+import {useAllMarkdown} from "../../Hooks/useAllMarkdown.ts";
+import {Post} from "../Interfaces/Post.ts";
 
 export interface IBlogItem{
     name: string;
@@ -16,7 +17,7 @@ export default function Blog() {
             <h1 className={"p-2"}>Blog</h1>
             {posts.map((post: Post) => (
                 <section key={post.slug} onClick={() => setSelected(post)} className={"p-2 cursor-pointer underline"}>
-                    <p id={post.slug}>{post.slug.replace(/-/g, ' ')}</p>
+                    <p id={post.slug}>- {post.slug.replace(/-/g, ' ')}</p>
                 </section>
             ))}
             {selected && <MarkdownRenderer content={selected.content} />}

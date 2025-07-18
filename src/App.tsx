@@ -26,7 +26,7 @@ function App() {
                             <Link className={"text-cyan-600 border-r border-cyan-400 px-2"} to="/">About</Link>
                             <Link className={"text-cyan-600 border-r border-cyan-400 px-2"}
                                   to="/projects">Projects</Link>
-                            <Link className={"text-cyan-600 border-r border-cyan-400 px-2"} to="/resume">Resume</Link>
+                            {/*<Link className={"text-cyan-600 border-r border-cyan-400 px-2"} to="/resume">Resume</Link>*/}
                             <Link className={"text-cyan-600 border-r border-cyan-400 px-2"} to="/blog">Blog</Link>
                             <Link className={"text-cyan-600 px-2"} to="/just-bg">Show Background Only</Link>
                         </div>

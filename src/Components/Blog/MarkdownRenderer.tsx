@@ -9,7 +9,7 @@ export type MarkdownRendererProps = {
 
 export default function MarkdownRenderer({content}: MarkdownRendererProps) {
     return (
-        <div className="absolute top-14 right-14 p-4 bg-cyan-900/95 rounded-md">
+        <div className={"p-2 overflow-auto box-border "}>
             <Markdown
                 remarkPlugins={[remarkGfm]}
                 children={content}
